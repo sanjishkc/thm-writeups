@@ -28,15 +28,11 @@ This room helped me understand how attackers can inspect and manipulate browser-
 In this section of the JavaScript Essentials room, I learned that JavaScript is the "brain" of a website. While HTML builds the structure and CSS handles the look, JS manages the interactivity.
 
 ## Key Takeaway for my GitHub
-I realized that understanding JS isn't just for developers—it's vital for security. If I can understand how a site processes data on the client-side (in my browser), I can find ways to manipulate that logic.
+I realized that understanding JS isn't just for developers; it's vital for security. If I can understand how a site processes data on the client-side (in my browser), I can find ways to manipulate that logic.
 
 
-(./images/js1.png)
-./images/js_banner.png
 
-### 📸 Screenshot Suggestion
-Capture the TryHackMe Room Banner or the desktop of the attached VM showing the exercise folder to show you’ve initialized the lab environment.
-
+![Banner](images/js_banner.png)
 ---
 
 # 🧠 Task 2: Essential Concepts
@@ -61,6 +57,8 @@ In security, we look for sensitive data like:
 - Session tokens
 - Secrets accidentally left in global variables
 
+![Function](./images/js1.png)
+
 ---
 
 ## 2. Data Types
@@ -84,6 +82,8 @@ function greetMe() {
 }
 ```
 
+![Function](./images/js2.png)
+
 ---
 
 ## 4. Conditionals (The Logic Gate)
@@ -104,10 +104,6 @@ if (admin == true)
 
 I want to find a way to make that box say true even if I'm a guest.
 
----
-
-### 📸 Screenshot Suggestion
-Open the Browser Console (F12) on the VM and take a screenshot of yourself defining a variable and a simple function.
 
 ---
 
@@ -183,8 +179,6 @@ This real-time feedback is why JS is powerful for building and testing web apps.
 
 ---
 
-### 📸 Screenshot Suggestion
-Open Chrome Console on the VM, paste the addition code, and capture the output.
 
 ---
 
@@ -253,10 +247,7 @@ Syntax:
 
 ---
 
-### 📸 Screenshot Suggestion
-Show `external.html` and `script.js` side-by-side.
 
----
 
 # ⚠️ Task 5: Abusing Dialogue Functions
 
@@ -344,8 +335,7 @@ which equals 5 times.
 
 ---
 
-### 📸 Screenshot Suggestion
-Capture the Hacked alert popup.
+![Task 5 - Hacked](./images/js_hacked.png)
 
 ---
 
@@ -385,6 +375,8 @@ Success.
 
 ## Task 6: Q&A Summary
 
+![Task 6 - Login Success](./images/js_loginsuccess.png)
+
 ### Q1: What is the message displayed if you enter the age less than 18?
 
 **Answer:** `You are a minor.`
@@ -397,8 +389,7 @@ Success.
 
 ---
 
-### 📸 Screenshot Suggestion
-Show Access Denied → Console modification → Success message.
+
 
 ---
 
@@ -418,6 +409,7 @@ I analyzed obfuscated JavaScript and restored it using:
 
 **Tool Used:** Obfuscator.io Deobfuscator
 
+![Task 7 - Obfuscated Code](./images/js_obfuscated.png)
 ---
 
 ## Task 7: Q&A Summary
@@ -444,8 +436,7 @@ age=0x1*0x247e+0x35*-0x2e+-0x1ae3;
 
 ---
 
-### 📸 Screenshot Suggestion
-Show obfuscator input/output.
+![Task 7 - Deobfuscated Code](./images/js_deobfusca.png)
 
 ---
 
@@ -472,8 +463,8 @@ In this task, I explored secure JavaScript coding practices.
 
 ---
 
-### 📸 Screenshot Suggestion
-Capture task completion or notes.
+<!--### 📸 Screenshot Suggestion
+Capture task completion or notes.-->
 
 ---
 
@@ -514,4 +505,4 @@ Completing this room gave me a strong foundation in JavaScript fundamentals and 
 # 👨‍💻 Author
 
 **Sanjish K C**  
-Cybersecurity Student | TryHackMe Learner | Future Security Professional
+MS Cybersecurity Candidate at Webster University | Network Analysis | Nmap | Wireshark | Linux | CS Educator Transitioning into Cybersecurity
