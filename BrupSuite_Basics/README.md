@@ -41,7 +41,7 @@ I learned that professional web application testing relies heavily on a structur
 
 # 🌐 Task 2: What is Burp Suite?
 
-![DB](images/bs_dashboard.png)
+![DB](images/bs-dashboard.png)
 
 Burp Suite is a Java-based framework used for web application penetration testing.
 
@@ -673,7 +673,7 @@ http://10.144.167.197/ticket/
 The application blocked special characters in the email field using client-side validation.
 
 ---
-![t14](images/BS_xss1.png)
+![t14](images/bs-xss1.png)
 
 ## How I Bypassed It
 
@@ -692,11 +692,11 @@ The application blocked special characters in the email field using client-side 
 
 If validation is not enforced server-side, attackers can bypass restrictions by modifying intercepted requests.
 
-![t14](images/bs_xss2.png)
+![t14](images/bs-xss2.png)
 
 ---
 
-![t14](images/bs-xssinjected.png)
+![t14](images/bs-xxsinjected.png)
 
 
 ## Questions & Answers
